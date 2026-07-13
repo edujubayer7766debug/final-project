@@ -1,0 +1,50 @@
+.hero-banner {
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;
+}
+.hero-banner img {
+    max-width: 100%;
+    height: auto;
+}
+.hero-banner h1 {
+    font-size: 3rem;
+    color: rgb(151, 10, 233);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-image {
+    flex: 1;
+}
+.hero-content {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.hero-content button {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero-content button:hover {
+    background-color: #cc0000;
+}
+.form-container {
+    display: flex;
+    
+    padding: 20px;
+    flex-direction: column;
+}
+.box {
+    background-color: #dfc5c5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 5px auto;
+}
